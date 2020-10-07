@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TicTacToe
@@ -62,7 +56,7 @@ namespace TicTacToe
                 counter++;
                 undo_counter = 0;
                 PlayerTurn.Text = "Player " + playerTurn.ToString();
-                if (Sprawdz_wynik().Equals("win"))
+                if (Check_score().Equals("win"))
                 {
                     PlayerTurn.Visible = false;
                     MessageBox.Show(playerName + " wins");
@@ -74,7 +68,7 @@ namespace TicTacToe
                     else { Close(); }
                 }
                 
-                if (Sprawdz_wynik().Equals("remis"))
+                if (Check_score().Equals("remis"))
                 {
                     PlayerTurn.Visible = false;
                     MessageBox.Show("Remis");
@@ -92,35 +86,35 @@ namespace TicTacToe
 
             }
         }
-        private string Sprawdz_wynik()
+        private string Check_score()
         {
 
 
 
             if (button1.Text == button2.Text && button2.Text == button3.Text && button3.Text != "")
             {
-                Koloruj(1);
+                Paint(1);
 
             }
             else if (button1.Text == button4.Text && button4.Text == button7.Text && button7.Text != "")
             {
-                Koloruj(2);
+                Paint(2);
 
             }
             else if (button1.Text == button5.Text && button5.Text == button9.Text && button9.Text != "")
             {
-                Koloruj(3);
+                Paint(3);
             }
             else if (button4.Text == button5.Text && button5.Text == button6.Text && button6.Text != "")
-            { Koloruj(4); }
+            { Paint(4); }
             else if (button7.Text == button8.Text && button8.Text == button9.Text && button9.Text != "")
-            { Koloruj(5); }
+            { Paint(5); }
             else if (button7.Text == button5.Text && button5.Text == button3.Text && button3.Text != "")
-            { Koloruj(6); }
+            { Paint(6); }
             else if (button2.Text == button5.Text && button5.Text == button8.Text && button8.Text != "")
-            { Koloruj(7); }
+            { Paint(7); }
             else if (button3.Text == button6.Text && button6.Text == button9.Text && button9.Text != "")
-            { Koloruj(8); }
+            { Paint(8); }
             else if (counter == 9)
             { result = "remis"; }
             
@@ -132,7 +126,7 @@ namespace TicTacToe
             return result;
         }
 
-        private string Koloruj(int i)
+        private string Paint(int i)
         {
             if (i == 1)
             {
