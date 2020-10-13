@@ -8,13 +8,13 @@ C:\Users\Grzesiek\Desktop\Projekty\Kółko Krzyżyk\Kółko Krzyżyk\obj\Debug\T
 C:\Users\Grzesiek\Desktop\Projekty\Kółko Krzyżyk\Kółko Krzyżyk\obj\Debug\Tic Tac Toe.csproj.CoreCompileInputs.cache
 C:\Users\Grzesiek\Desktop\Projekty\Kółko Krzyżyk\Kółko Krzyżyk\obj\Debug\Kółko Krzyżyk.exe
 C:\Users\Grzesiek\Desktop\Projekty\Kółko Krzyżyk\Kółko Krzyżyk\obj\Debug\Kółko Krzyżyk.pdb
-C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\bin\Debug\Kółko Krzyżyk.exe.config
-C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\bin\Debug\Kółko Krzyżyk.exe
-C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\bin\Debug\Kółko Krzyżyk.pdb
 C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Tic Tac Toe.csprojAssemblyReference.cache
 C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\TicTacToe.TicTacToe.resources
-C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Kółko_Krzyżyk.Properties.Resources.resources
 C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Tic Tac Toe.csproj.GenerateResource.cache
 C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Tic Tac Toe.csproj.CoreCompileInputs.cache
-C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Kółko Krzyżyk.exe
-C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Kółko Krzyżyk.pdb
+C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\bin\Debug\Tic Tac Toe.exe.config
+C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\bin\Debug\Tic Tac Toe.exe
+C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\bin\Debug\Tic Tac Toe.pdb
+C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Tic_Tac_Toe.Properties.Resources.resources
+C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Tic Tac Toe.exe
+C:\Users\Grzesiek\Desktop\Projekty\Tic Tac Toe\obj\Debug\Tic Tac Toe.pdb
